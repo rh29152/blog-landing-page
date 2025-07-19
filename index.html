@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1 class="main-header__heading">📘 The Code Magazine</h1>
+
+            <nav class="main-header__nav">
+                <a href="blog.html" class="main-header__nav-link">Blog</a>
+                <a href="blog.html" class="main-header__nav-link">Challenges</a>
+                <a href="blog.html" class="main-header__nav-link">Flexbox</a>
+                <a href="blog.html" class="main-header__nav-link">CSS Grid</a>
+            </nav>
+        </header>
+
+
+        <article class="article">
+            <header class="article__header">
+                <h2 class="article__header-heading">The Basic Language of the Web: HTML</h2>
+
+                <img class="article__header-author-img" src="img/laura-jones.jpg" alt="Headshot of Laura Jones" />
+                <p class="article__header-author-name">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+                </p>
+
+                <img class="article__header-post-img" src="img/post-img.jpg" alt="coding image">
+            </header>
+
+            <p class="article__paragraph">All modern websites and web applications are built using three fundamental
+                technologies: HTML,
+                CSS and JavaScript. These are the languages of the web.</p>
+            <p class="article__paragraph">In this post, let's focus on HTML. We will learn what HTML is all about, and
+                why you too should
+                learn it.</p>
+
+            <h3 class="article__sub-heading">What is HTML?</h3>
+            <p class="article__paragraph">HTML stands for <b>H</b>yperText <b>M</b>arkup <b>L</b>anguage. It's a markup
+                language that web
+                developers
+                use to
+                structure and describe the content of a webpage (not a programming language).</p>
+            <p class="article__paragraph">HTML consists of elements that describe different types of content:
+                paragraphs, links, headings, images,
+                video,
+                etc. Web browsers understand HTML and render HTML code as websites.</p>
+
+            <p class="article__paragraph">In HTML, each element is made up of 3 parts:</p>
+            <ol class="article__html-parts-list">
+                <li class="article__html-part-item">The opening tag</li>
+                <li class="article__html-part-item">The closing tag</li>
+                <li class="article__html-part-item">The actual element</li>
+            </ol>
+            <p class="article__paragraph">You can learn more at <a class="article__link"
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a>.</p>
+
+            <h3 class="article__sub-heading">Why should you learn HTML?</h3>
+            <p class="article__paragraph">There are countless reasons for learning the fundamental language of the web.
+                Here are 5 of them:</p>
+            <ul class="article__html-benefits-list">
+                <li class="article__html-benefit-item">To be able to use the fundamental web dev language</li>
+                <li class="article__html-benefit-item">To hand-craft beautiful websites instead of relying on tools like
+                    Worpress or Wix</li>
+                <li class="article__html-benefit-item">To build web applications</li>
+                <li class="article__html-benefit-item">To impress friends</li>
+                <li class="article__html-benefit-item">To have fun 😃</li>
+            </ul>
+
+            <p class="article__paragraph">Hopefully you learned something new here. See you next time!</p>
+        </article>
+
+        <button class="article__like-button">😍 Like</button>
+
+        <aside class="aside">
+            <p class="aside__heading">Related Post</p>
+            <ul class="aside__content-list">
+                <li class="aside__content-item">
+                    <img class="aside__content-img" src="img/related-1.jpg" alt="Person programming" width="75"
+                        width="75" />
+                    <a class="aside__content-link" href="hello.com">How to Learn Web Development</a>
+                    <p class="aside__content-author">By Jonas Schmedtmann</p>
+                </li>
+                <li class="aside__content-item">
+                    <img class="aside__content-img" src="img/related-2.jpg" alt="Lightning" width="75" heigth="75" />
+                    <a class="aside__content-link" href="hello.com">The Unknown Powers of CSS</a>
+                    <p class="aside__content-author">By Jim Dillon</p>
+                </li>
+                <li class="aside__content-item">
+                    <img class="aside__content-img" src="img/related-3.jpg" alt="JavaScript code on a screen" width="75"
+                        height="75" />
+                    <a class="aside__content-link" href="hello.com">Why JavaScript is Awesome</a>
+                    <p class="aside__content-author">By Matilda</p>
+                </li>
+            </ul>
+        </aside>
+
+        <footer>
+            <p class="footer__copyright">Copyright &copy; 2027 by The Code Magazine.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
