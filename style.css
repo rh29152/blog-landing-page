@@ -2,6 +2,7 @@
 * {
    padding: 0;
    margin: 0;
+   box-sizing: border-box;
 }
 
 /* body styling  */
@@ -40,8 +41,8 @@ body {
    margin-bottom: 20px;
    padding: 20px;
 
-   /* float layout
-   float: left; */
+   /* float layout */
+   float: left;
 }
 
 
@@ -53,15 +54,17 @@ body {
 
 .main-header__nav {
    margin-left: 250px;
-   /* float layout
-   float: left; */
+   /* float layout */
+   float: left;
+   margin-top: 30px;
 }
 
    /*float layout clear */
-/* .main-header__nav::after {
+.main-header::after {
    content: "";
    clear: both;
-} */
+   display: block;
+}
 
 .main-header__nav-link:link {
    color: #1098ad;
