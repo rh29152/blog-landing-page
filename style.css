@@ -28,7 +28,6 @@ body {
 .main-header {
    background-color: #f7f7f7;
    margin-bottom: 20px;
-
    /*flex layout */
    display: flex;
    align-items: center;
@@ -42,9 +41,6 @@ body {
    text-transform: uppercase;
    font-weight: bold;
    font-style: italic;
-   /* margin-left: 20px; */
-   /* margin-top: 10px; */
-   /* margin-bottom: 20px; */
 }
 
 
@@ -88,6 +84,13 @@ body {
 .article__paragraph {
    margin-bottom: 20px;
    margin-top: 20px;
+}
+
+   /*flex layout */
+.author-box {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
 }
 
 .article__header-heading {
