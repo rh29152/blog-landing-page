@@ -28,6 +28,12 @@ body {
 .main-header {
    background-color: #f7f7f7;
    margin-bottom: 20px;
+
+   /*flex layout */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
 }
 
 .main-header__heading {
@@ -36,10 +42,9 @@ body {
    text-transform: uppercase;
    font-weight: bold;
    font-style: italic;
-   margin-left: 20px;
-   margin-top: 10px;
-   margin-bottom: 20px;
-   padding: 20px;
+   /* margin-left: 20px; */
+   /* margin-top: 10px; */
+   /* margin-bottom: 20px; */
 }
 
 
@@ -50,7 +55,7 @@ body {
 
 
 .main-header__nav {
-   margin-left: 250px;
+   /* margin-left: 250px; */
 }
 
 .main-header__nav-link:link {
