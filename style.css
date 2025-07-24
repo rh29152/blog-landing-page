@@ -191,7 +191,6 @@ body {
    width: 50%;
 }
 
-
 .aside__heading {
    font-size: 30px;
    text-transform: uppercase;
@@ -204,6 +203,13 @@ body {
 .aside__content-list {
    list-style-type: none;
    margin: 0;
+}
+
+/*flex layout */
+.aside__content-item {
+   display: flex;
+   gap: 20px;
+   margin-bottom: 20px;
 }
 
 .aside__content-author {
