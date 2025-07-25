@@ -17,7 +17,7 @@ body {
 
 /* div container styling */
 .container {
-   width: 1120px;
+   width: 1200px;
    margin-left: auto;
    margin-right: auto;
 }
@@ -49,11 +49,6 @@ body {
    font-style: normal;
 }
 
-
-.main-header__nav {
-   /* margin-left: 250px; */
-}
-
 .main-header__nav-link:link {
    color: #1098ad;
    text-decoration: none;
@@ -77,8 +72,16 @@ body {
 
 /* article styling  */
 
+/*flex layout */
+.content-container {
+   display: flex;
+   gap: 75px;
+   align-items: center;
+}
+
 .article {
    margin-top: 50px;
+   flex: 0 0 825px;
 }
 
 .article__paragraph {
@@ -86,7 +89,7 @@ body {
    margin-top: 20px;
 }
 
-   /*flex layout */
+/*flex layout */
 .author-box {
    display: flex;
    align-items: center;
@@ -117,7 +120,6 @@ body {
    height: auto;
 }
 
-
 .article__header-heading::after {
    content: "TOP";
    background-color: yellow;
@@ -126,7 +128,7 @@ body {
    font-weight: bold;
    position: absolute;
    top: -10px;
-   right: 300px;
+   right: 0;
 }
 
 .article__header-post-img {
@@ -173,7 +175,6 @@ body {
 
 
 /* Like button styling */
-
 .article__like-button {
    font-size: 22px;
    padding: 20px;
@@ -188,7 +189,8 @@ body {
 .aside {
    border-top: 10px solid #1098ad;
    border-bottom: 10px solid #1098ad;
-   width: 50%;
+   
+   flex: 0 0 300px;
 }
 
 .aside__heading {
@@ -208,6 +210,7 @@ body {
 /*flex layout */
 .aside__content-item {
    display: flex;
+   align-items: flex-start;
    gap: 20px;
    margin-bottom: 20px;
 }
@@ -215,8 +218,8 @@ body {
 .aside__content-author {
    margin: 0;
    padding: 0;
-   margin-bottom: 20px;
-   font-weight: bold;
+   font-style: italic;
+   font-size: 18px;
 }
 
 .aside__content-link:link {
