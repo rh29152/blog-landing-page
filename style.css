@@ -25,6 +25,7 @@ body {
    display: grid;
    grid-template-columns: 3fr 1fr;
    column-gap: 75px;
+   row-gap: 30px;
    align-items: center;
 }
 
@@ -33,7 +34,6 @@ body {
 
 .main-header {
    background-color: #f7f7f7;
-   margin-bottom: 20px;
    /*flex layout */
    display: flex;
    align-items: center;
@@ -82,10 +82,7 @@ body {
 /* article styling  */
 
 .article {
-   margin-top: 50px;
    /* grid item alignmemnt */
-
-
 }
 
 .article__paragraph {
